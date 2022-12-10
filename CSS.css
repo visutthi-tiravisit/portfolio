@@ -1,0 +1,276 @@
+html {
+    font-family: 'Barlow Condensed';
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.Part-head-container {
+    height: 60vw;
+    background-repeat: no-repeat;
+    background-color: rgb(13, 10, 28);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.logo-container {
+    background-color: aliceblue;
+    align-items: center;
+    display: flex;
+    flex: 1;
+}
+
+.logo {
+    color: aqua;
+}
+
+.nav-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-left: 20px;
+    position: relative;
+    height: auto;
+}
+
+.nav-other {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    height: 100%;
+    margin: 3%;
+    position: sticky;
+    top: 20px;
+}
+
+.credit-top {
+    white-space: nowrap;
+    align-items: top;
+    margin: 3%;
+}
+
+.web-btn {
+    cursor: pointer;
+    display: flex;
+    color: rgb(244, 245, 245);
+    background-color: transparent;
+    min-width: 1em;
+    padding: 0;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+}
+
+
+.nav-contact,
+.nav-work,
+.nav-about {
+    padding: 0px 25px;
+}
+
+.nav-about {
+    border-left: 0.5vh solid white;
+    border-right: 00.5vh solid white;
+}
+
+.nav-contact>a,
+.nav-work>a,
+.nav-about>a {
+    text-decoration: none;
+    color: rgb(244, 245, 245);
+    font-size: 3vh;
+
+}
+
+
+.Part-welcome {
+    /* background-color: aqua; */
+    display: flex;
+    height: 100%;
+
+}
+
+.message-container {
+    /* background-color: antiquewhite; */
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 100%;
+    height: 100vw;
+}
+
+.welcome-message {
+    color: rgb(244, 245, 245);
+    font-size: 10vw;
+    position: sticky;
+    top: 0;
+}
+
+.div-deco {
+    color: rgb(82, 82, 82);
+    font-size: 2vw;
+}
+
+/*------------------- Part 2 ----------------------*/
+.Part-about-me-container {
+    /* background-color: aqua; */
+    background-color: rgb(244, 244, 244);
+    position: relative;
+    height: 45vw;
+    border-top: 3px solid rgb(152, 135, 93);
+
+}
+
+.about-header {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 3vw;
+}
+
+.quote-container {
+    /* background-color: aqua; */
+    margin-left: 5%;
+    width: 50%;
+    font-size: 3vw;
+    text-align: justify;
+}
+
+/*------------------- Part 3 ----------------------*/
+.Part-work-container {
+    background-color: rgb(13, 10, 28);
+    position: relative;
+    height: 40vw;
+    border-top: 3px solid rgb(152, 135, 93);
+    flex-direction: column;
+}
+
+.work-container {
+    margin-top: 5%;
+    /* background-color: antiquewhite; */
+    flex: 1;
+    float: right;
+    margin-right: 5%;
+}
+
+.work-header {
+    font-size: 3vw;
+    color: rgb(152, 135, 93);
+}
+
+.spotlight-container {
+    /* background-color: aqua; */
+    display: flex;
+
+    /* margin-left: 5%; */
+    margin-top: 5%;
+    height: 80%;
+    width: 70%;
+    justify-content: space-between;
+
+}
+
+.spotlight2,
+.spotlight {
+    /* background-color: red; */
+    margin: 2%;
+    width: 50%;
+}
+
+.spotlight {
+
+    border-right: 0.1vw solid rgb(152, 135, 93);
+}
+
+.work-1 {
+    display: flex;
+    height: 95%;
+    margin-right: 4vw;
+    margin-top: 1vw;
+    /* background-color: antiquewhite; */
+}
+
+.img-container>img {
+    /* background-color: blueviolet; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-left: 5%;
+}
+
+.work-2 {
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    margin-right: 3vw;
+    margin-top: 1vw;
+    /* background-color: antiquewhite; */
+}
+
+.div-deco2 {
+    color: rgb(82, 82, 82);
+    font-size: 1.3vw;
+}
+
+.work-h {
+    margin-left: 5%;
+    margin-top: 0%;
+    font-size: 3vw;
+    font: bold;
+    color: rgb(244, 244, 244);
+    margin-bottom: 0;
+}
+
+.work-description {
+    margin-left: 5%;
+    margin-top: 0;
+    color: rgb(244, 244, 244);
+    text-align: justify;
+    font-size: 2vw;
+}
+
+/*------------------- Part 4 ----------------------*/
+
+.Part-footer-container {
+    background-color: rgb(244, 244, 244);
+    height: 20vw;
+    width: 100%;
+    border-top: 3px solid rgb(152, 135, 93);
+}
+
+.contact-header {
+    /* margin-left: 5%; */
+    font-size: 2vw;
+    text-align: center;
+}
+
+.img-contact-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 19%;
+}
+
+.icon-border {
+    display: flex;
+    position: relative;
+    /* background-color: red; */
+
+}
+
+.icon-border>img {
+    display: flex;
+    position: relative;
+    align-self: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    height: 80%;
+    width: 80%;
+}
